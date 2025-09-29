@@ -1,0 +1,86 @@
+/* Reset básico */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #496d90, #d9e2ec);
+  color: #333;
+}
+
+/* Navbar moderno */
+.navbar {
+  background-color: #3398ba;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  list-style: none;
+  gap: 20px;
+}
+
+.navbar button {
+  background-color: #374151;
+  color: #f9fafb;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.navbar button:hover {
+  background-color: #4b5563;
+  transform: scale(1.05);
+}
+
+/* Contenido principal */
+#contenido {
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#contenido h2 {
+  margin-bottom: 20px;
+  color: #1f2937;
+}
+
+#contenido input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #cbd5e0;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+#contenido button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#contenido button:hover {
+  background-color: #1d4ed8;
+}
+
+#contenido p {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #111827;
+}
